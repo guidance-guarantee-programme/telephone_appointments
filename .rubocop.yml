@@ -1,0 +1,29 @@
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/**/*'
+    - 'vendor/**/*'
+  TargetRubyVersion: 2.3
+
+Documentation:
+  Enabled: false
+
+Lint/HandleExceptions:
+  Exclude:
+    - Rakefile
+
+Metrics/LineLength:
+  Max: 120
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Metrics/MethodLength:
+  Exclude:
+    - 'spec/features/*'
+    - 'spec/requests/*'
+
+Metrics/AbcSize:
+  Exclude:
+    - 'spec/features/*'
+    - 'spec/requests/*'
