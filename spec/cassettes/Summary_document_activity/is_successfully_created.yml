@@ -1,0 +1,46 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3001/api/v1/summary_documents
+    body:
+      encoding: US-ASCII
+      string: appointment_id=35&owner_uid=7827dce2-df16-4e92-ba69-39c05f27720b
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - application/json
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Read-Timeout:
+      - 5
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - f8b53256-bfd8-486a-acfe-dea4f77a3ac6
+      X-Runtime:
+      - '0.021276'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Wed, 18 Jan 2017 14:37:46 GMT
+recorded_with: VCR 3.0.1

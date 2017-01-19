@@ -1,6 +1,9 @@
 require 'telephone_appointments/version'
 require 'telephone_appointments/api'
 
+require 'telephone_appointments/response'
+require 'telephone_appointments/summary_document_activity'
+
 require 'active_support/core_ext/module/attribute_accessors'
 
 module TelephoneAppointments
@@ -9,4 +12,6 @@ module TelephoneAppointments
   def self.api
     @api ||= TelephoneAppointments::Api.new
   end
+
+  class UnsavedObject < StandardError; end
 end
