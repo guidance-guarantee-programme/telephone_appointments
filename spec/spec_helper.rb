@@ -1,6 +1,7 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
 require 'telephone_appointments'
 
+require 'pry'
 require 'vcr'
 require 'webmock/rspec'
 
