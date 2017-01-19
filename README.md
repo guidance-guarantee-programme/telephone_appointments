@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install booking_locations
+    $ gem install telephone_appointments
 
 ## Usage
 
