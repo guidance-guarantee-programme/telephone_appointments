@@ -5,7 +5,7 @@ http_interactions:
     uri: http://localhost:3001/api/v1/summary_documents
     body:
       encoding: US-ASCII
-      string: appointment_id&owner_uid
+      string: appointment_id&owner_uid&delivery_method=postal
     headers:
       Accept:
       - application/json

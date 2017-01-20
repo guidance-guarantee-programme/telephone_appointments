@@ -4,7 +4,9 @@ RSpec.describe 'Summary document activity', vcr: true do
   it 'is successfully created' do
     summary_document = TelephoneAppointments::SummaryDocumentActivity.new(
       appointment_id: 35,
-      owner_uid: '7827dce2-df16-4e92-ba69-39c05f27720b'
+      owner_uid: '7827dce2-df16-4e92-ba69-39c05f27720b',
+      delivery_method: 'postal'
+
     )
     expect(summary_document.save).to be true
   end
@@ -12,7 +14,8 @@ RSpec.describe 'Summary document activity', vcr: true do
   it 'it lists the errors when the create is unsuccessful' do
     summary_document = TelephoneAppointments::SummaryDocumentActivity.new(
       appointment_id: nil,
-      owner_uid: nil
+      owner_uid: nil,
+      delivery_method: 'postal'
     )
 
     expect(summary_document.save).to be false
