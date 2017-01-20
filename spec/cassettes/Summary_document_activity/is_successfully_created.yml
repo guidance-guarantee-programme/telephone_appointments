@@ -5,7 +5,7 @@ http_interactions:
     uri: http://localhost:3001/api/v1/summary_documents
     body:
       encoding: US-ASCII
-      string: appointment_id=35&owner_uid=7827dce2-df16-4e92-ba69-39c05f27720b
+      string: appointment_id=35&owner_uid=7827dce2-df16-4e92-ba69-39c05f27720b&delivery_method=postal
     headers:
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3

@@ -22,7 +22,11 @@ Or install it yourself as:
 
 ```ruby
 
-summary_document = TelephoneAppointments::SummaryDocumentActivity.new(appointment_id: id, owner_uid: uid)
+summary_document = TelephoneAppointments::SummaryDocumentActivity.new(
+  appointment_id: id,
+  owner_uid: uid, 
+  delivery_method: message # 'postal' or 'digital'
+)
 summary_document.save # returns true or false
 
 summary_document.errors # returns a hash of errors if save is unsuccessful
