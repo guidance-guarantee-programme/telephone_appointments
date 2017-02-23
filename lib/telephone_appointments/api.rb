@@ -4,13 +4,13 @@ module TelephoneAppointments
   class Api
     SSL_PORT = 443
 
-    def post(path, form_data)
+    def post(path, form_data = nil)
       uri = URI.parse("#{api_uri}#{path}")
       http = Net::HTTP.new(uri.host, uri.port)
       http.read_timeout = read_timeout
       http.use_ssl = true if uri.port == SSL_PORT
       request = Net::HTTP::Post.new(uri.request_uri, headers)
-      request.set_form_data(form_data)
+      request.set_form_data(form_data) if form_data
 
       TelephoneAppointments::Response.new(http.request(request))
     end
