@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: http://localhost:3001/api/v1/appointments/102176/dropped_summary_documents
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      Content-Type:
+      - application/json
+      Cache-Control:
+      - no-cache
+      Set-Cookie:
+      - _telephone_appointment_planner_session=WDZ4cXJEMUJGSFJQZHpRVzJuTFduQlVTZGVaRjBtaUhqamZJdmxSLzlJSGlPb0UwNFR6QldUdXVicUJPN3NHZ3RJZzJYTWovMmVHMUptYlRXUFNUVEE9PS0td3MxTGxGM3RjWkcvd1Q3bTk0YVhhQT09--283bdc466253ecd6e4f177217b16a6b1283806c3;
+        path=/; HttpOnly
+      X-Request-Id:
+      - 2039ebfd-04a1-40a7-88ec-8b7e9f09f588
+      X-Runtime:
+      - '0.089585'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: ''
+    http_version: 
+  recorded_at: Thu, 23 Feb 2017 13:27:06 GMT
+recorded_with: VCR 3.0.3

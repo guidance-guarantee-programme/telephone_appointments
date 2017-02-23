@@ -6,8 +6,8 @@ require 'telephone_appointments/version'
 Gem::Specification.new do |spec|
   spec.name          = 'telephone_appointments'
   spec.version       = TelephoneAppointments::VERSION
-  spec.authors       = ['David Henry']
-  spec.email         = ['david@decoybecoy.com']
+  spec.authors       = ['Ben Lovell', 'David Henry']
+  spec.email         = ['benjamin.lovell@gmail.com', 'david@decoybecoy.com']
 
   spec.summary       = 'Pension Guidance Telephone Appointment Planner API adapter'
   spec.homepage      = 'https://github.com/guidance-guarantee-programme/telephone_appointments'
