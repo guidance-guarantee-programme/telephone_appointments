@@ -1,3 +1,7 @@
+## 0.2.1
+
+* Pin development dependencies in gemspec
+
 ## 0.2.0
 
 * Create a summary document failure activity
