@@ -1,3 +1,8 @@
+## 0.3.0
+
+* Loosen `activesupport` dependency to include version 5.1.x
+* Don't specify bundler in development dependencies
+
 ## 0.2.1
 
 * Pin development dependencies in gemspec
