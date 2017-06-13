@@ -4,7 +4,7 @@ rvm:
 - 2.3.3
 before_install:
 - gem update --system
-- gem install bundler -v 1.13.7
+- gem install bundler
 notifications:
   slack:
     secure: XecHmig/8T6A8kHE99V7GnXJJ6pDDH7QgjiI1gIcKXVOxsQEYDhfOgl0jZe+dn1t0rGR7JTClunI1vQCJPF/8W1iMLZHSS1oj0ow7W8Tdfo6UCKOscAsEp+5X1wxbvVEXuKwlkBQ7IcJeOeMglof6eUpOUCKm9j+NpvApXP8YYqIfBPKiMj1VQ7S/Bkckwe3DFomZxcIRKHM/TGe7A29ZauoWhXpYpy68BHMjDevmSPFXk5USigJXnBqdU/oH+uLUgBmEyc4396Yh5oQslPXxeXxavyvsIOFYIEmpjDez6JcQ7XgJy29lyZDQKYywP5yxisaXbeEpWjjqh5saaktukgRi8jLyTD2n6Zxq1udHg3TfWj+LccvF/NMu9cZGH4pvLB5jcGX5ZYlDAOddCujTsQu3mze/yb2XYSUp19bLBlA8TcnIPelAdzQS9vUGEcFfKIUvq1DQVYhsxfQ4rwyxBzbr8m4+FRum4HSDcb3HVSCCv/pusLISJS4kl+nLtk30hklRYZ/cz1CYj2WnhlsqYQOlrD/uZax0dthk+3v4cYW6tw2A3NNrEhUOUsTxH/+dPAstqmHrEKeSYJ3NTxw2Gfns2b0WB/alTFOe4S0c8/5h41G2d25wZTrUKcWyZYgdLMc9FY9CA2gvxTGKXde3UipEKwRs4GmsQ41RZsGXwg=
